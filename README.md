@@ -1,3 +1,9 @@
-# Modify this portfolio
+Number and name of feature:
 
-Make it your own! 
+Estimate of time needed to complete: 1 hour
+
+Start time: 1:42 pm
+
+Finish time: _____
+
+Actual time needed to complete: _____
