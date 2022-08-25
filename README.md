@@ -1,4 +1,3 @@
-Live URL : [Portfolio React Lab](https://splendorous-dasik-66f142.netlify.app/)
 
 ---
 
