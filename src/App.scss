@@ -32,13 +32,13 @@ html {
 header {
 	position: relative;
 	height: 520px;
-	min-height: 450px;
+	min-height: 100vh;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +51,10 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+}
+
+.nav-item a{
+	color: #06283D;
 }
 
 .github-corner:hover .octo-arm {
@@ -70,23 +74,27 @@ header .nav {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid #06283D;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
+	background-color: #06283D;
 	color: white;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#DFF6FF, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
 }
 
+.react-switch-bg{
+	visibility: hidden;
+}
+
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #DFF6FF;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -102,11 +110,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #DFF6FF;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #DFF6FF;
 	height: 25px;
 }
 
@@ -120,7 +128,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #DFF6FF;
 	overflow: hidden;
 }
 
@@ -231,7 +239,8 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #DFF6FF;
+	height: 110vh;
 }
 
 .experience-icon {
@@ -245,7 +254,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #47B5FF !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +265,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #DFF6FF !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -353,8 +362,9 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
-	padding-bottom: 5%;
+	background: #DFF6FF;
+	padding: 2% 0%;
+	height: 110vh;
 }
 
 .portfolio-item {
@@ -389,7 +399,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #06283D;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,14 +424,15 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
-	min-height: 100px;
+	background: #06283D;
+	min-height: 150px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
 	color: white;
 	position: relative;
 	text-align: center;
+	padding-top: 50px;
 }
 
 footer a,
@@ -435,10 +446,24 @@ footer a:focus {
 }
 
 .social-links {
+	display: flex;
+	justify-content: center;
+	
 	margin-top: 10px;
 	font-size: 22px;
 }
 
 #secondary-lang-icon, #primary-lang-icon{
 	visibility: hidden;
+}
+
+#about {
+	background-image: url("../public/images/codebg.jpg");
+	background-position: 10%;
+	background-size:cover;
+	height:  110vh;
+}
+
+#about span {
+	color: white;
 }
