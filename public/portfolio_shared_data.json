@@ -9,9 +9,9 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com/yazanismail1/",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/yazan-alfarra/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
